@@ -40,18 +40,18 @@ public class StudentFees {
 		double retake = 100.00;
 		double i;
 		double sum1 = sport + dental + health + library + welfare + tuition + registration + ICT + transportation + medical_checkup + retake;
+		double sum2 = sport + dental + health + library + welfare + tuition + registration + ICT + transportation + medical_checkup;
 		
-		System.out.println("Please choose the items: sport \n dental \n health \n library \n welfare \n tuition \n registration \n ICT \n transportation \n medical check-up \n retake ");
-		double description = input.nextDouble();
+		System.out.println("Please type 'Yes' if you want to retake for examination");
+		String language = in.next();
+		String language1 = "Yes";
+		String language2 = "yes";
 		Scanner read = new Scanner(System.in);
-		if (description <= 11)
-			{
-       
-                for(i = 0; i < description; i++ )
-           
-                    System.out.println("End Year Balance " + sum1);
-				
-				
-			}
+		double sum = sum1;
+		if (language == "Yes || yes"){
+			System.out.println("End Year Balance: " + "RM" + sum1);
+		} else { 
+			System.out.println("End Year Balance: " + "RM" + sum2);
+		}
 	}
 }
