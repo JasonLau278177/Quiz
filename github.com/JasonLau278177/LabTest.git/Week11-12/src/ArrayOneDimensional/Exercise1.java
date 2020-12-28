@@ -15,7 +15,7 @@ public class Exercise1 {
 		alpha[4] = 35;
 		System.out.println(alpha[4]);
 		
-		// set the value of the ninth element of the array alpha to the sum of the sicth and thirteeth element of the array alppha
+		// set the value of the ninth element of the array alpha to the sum of the sixth and thirteenth element of the array alpha
 		alpha [8] = alpha[5] + alpha[12];
 		System.out.println("Sum = " + alpha[8]);
 
